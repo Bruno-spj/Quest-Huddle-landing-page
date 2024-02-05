@@ -1,5 +1,9 @@
 
 @media (max-width: 868px){
+
+    body{
+        background-image: url(../imagens/bg-mobile.svg);
+    }
    
     .painel{
         margin-bottom: 100px;
@@ -7,7 +11,7 @@
     }
 
     .painel .img-painel .imagem{
-        width: 570px;
+        width: 400px;
         height: 400px;
         margin: auto;
     }
@@ -20,6 +24,11 @@
 
 
 @media (max-width: 425px){
+
+    body{
+        background-image: url(../imagens/bg-mobile.svg);
+    }
+
     .painel{
         flex-direction: column;
         text-align: center;
@@ -27,9 +36,21 @@
         margin: 0 auto;
     }
 
+    .painel .img-painel .imagem{
+        width: 300px;
+        height: 200px;
+        margin: auto;
+    }
+
+    .info-painel {
+        height: auto;
+    }
+
+
     .rodape .redes-sociais {
        justify-content: center;
         margin-top: 50px;
+        text-align: center;
        
     }
 
